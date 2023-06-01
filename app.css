@@ -1,0 +1,115 @@
+body {
+    font-family: 'Space Grotesk', sans-serif !important;
+    font-weight: 500;
+    font-size: 18px !important;
+}
+
+
+.card-num {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.cardholder {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.btn-primary-custom {
+    color: #fff;
+    background: hsl(278, 68%, 11%);
+    border: none;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.btn-primary-custom:hover {
+    background: hsl(279, 6%, 55%);
+}
+
+.btn-secondary-custom {
+    color: #fff;
+    background: hsl(278, 68%, 11%);
+    border: none;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.btn-secondary-custom:hover {
+    background: hsl(279, 6%, 55%);
+}
+
+label {
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+input {
+    border: solid hsl(270, 3%, 87%) 1.5px;
+}
+
+input:active {
+    border-color: linear-gradient(to right hsl(249, 99%, 64%) to hsl(278, 94%, 30%));
+}
+
+input::placeholder {
+    color: hsl(270, 3%, 87%);
+    font-weight: 600;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+@media (min-width:1000px) {
+    .card-num {
+        position: absolute;
+        top: 250px;
+        left: 232px;
+    }
+
+    .cardholder {
+        position: absolute;
+        top: 310px;
+        left: 232px;
+    }
+
+    .card-date {
+        position: absolute;
+        top: 310px;
+        left: 560px;
+    }
+
+    .card-cvc {
+        position: absolute;
+        bottom: 247px;
+        left: 650px;
+    }
+
+    #card-logo {
+        position: absolute;
+        top: 150px;
+        left: 232px;
+    }
+
+    body {
+        background-image: url('/images/bg-main-desktop.png');
+        background-repeat: no-repeat;
+    }
+
+    #box-2 {
+        padding-left: 20rem;
+        padding-top: 5rem;
+    }
+}
+
+#box-2 {
+    display: none;
+}
